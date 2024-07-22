@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+
+<div class="sm:px-5 md:px-0 container mx-auto my-8 md:flex gap-5">
+    <aside class="w-1/5">
+        <ul class="space-y-2">
+            <li class="bg-blue-100 text-blue-600 rounded py-2 px-3 text-sm">
+                <a routerLink="" class="flex gap-2">
+                    <fa-icon [icon]="faTrello"></fa-icon>
+                    Boards
+                </a>
+            </li>
+            <li class="hover:bg-gray-100 bg-transparent rounded py-2 px-3 text-sm">
+                <a routerLink="" class="flex gap-2">
+                    <fa-icon [icon]="faBorderTopLeft"></fa-icon>
+                    Boards
+                </a>
+            </li>
+            <li class="hover:bg-gray-100 bg-transparent rounded py-2 px-3 text-sm">
+                <a routerLink="" class="flex gap-2">
+                    <fa-icon [icon]="faChartLine"></fa-icon>
+                    Boards
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <main class="w-full">
+        <header class="flex gap-2 font-bold py-1">
+            <fa-icon [icon]="faClock"></fa-icon>
+            Recently viewed
+        </header>
+        <div class="grid grid-cols-4 gap-4 mt-3">
+            <div class="card bg-blue-700 h-28 rounded py-1 px-2 text-white">
+                <h2>Board 1</h2>
+            </div>
+            <div class="card bg-blue-700 h-28 rounded py-1 px-2 text-white">
+                <h2>Board 1</h2>
+            </div>
+            <div class="card bg-blue-700 h-28 rounded py-1 px-2 text-white">
+                <h2>Board 1</h2>
+            </div>
+            <div class="card bg-blue-700 h-28 rounded py-1 px-2 text-white">
+                <h2>Board 1</h2>
+            </div>
+            <div class="card bg-blue-700 h-28 rounded py-1 px-2 text-white">
+                <h2>Board 1</h2>
+            </div>
+        </div>
+    </main>
+</div>
